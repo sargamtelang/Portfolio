@@ -1,0 +1,131 @@
+.projectsDone {
+  position: relative;
+  display: inline-block;
+  width: 208px;
+  height: 18px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.ellipseShape {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(255, 0, 0, 0.32),
+    rgba(255, 8, 5, 0.26) 0.01%,
+    rgba(255, 149, 90, 0)
+  );
+}
+.image121 {
+  position: absolute;
+  top: 293px;
+  left: 309px;
+  width: 283.6px;
+  height: 269px;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 1;
+}
+.ellipseShapeParent {
+  position: absolute;
+  margin: 0 !important;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.circleShape {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-237xl) var(--padding-xl);
+  position: relative;
+}
+.imagePng1Icon {
+  position: relative;
+  width: 284px;
+  height: 279px;
+  object-fit: cover;
+}
+.thirdFrame {
+  width: 584px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.circleShapeParent {
+  align-self: stretch;
+  height: 1168px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-150xl);
+  max-width: 100%;
+}
+.frameWrapper,
+.macbookAir2Inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.frameWrapper {
+  width: 743px;
+  height: 1050px;
+  justify-content: flex-start;
+  max-width: 114%;
+  flex-shrink: 0;
+}
+.macbookAir2Inner {
+  width: 654px;
+  height: 832px;
+  justify-content: flex-end;
+  min-width: 654px;
+  max-width: 100%;
+  text-align: justify;
+  font-size: var(--font-size-3xs);
+  color: var(--color-red-300);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1225px) {
+  .macbookAir2Inner {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .circleShape {
+    padding-top: var(--padding-147xl);
+    padding-bottom: var(--padding-147xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .circleShapeParent {
+    gap: var(--gap-65xl);
+  }
+  .macbookAir2Inner {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .circleShapeParent {
+    gap: var(--gap-23xl);
+  }
+}

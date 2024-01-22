@@ -1,0 +1,316 @@
+.experienceDesignX {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-21xl);
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color-mediumblue);
+  display: inline-block;
+  width: 248px;
+  height: 185px;
+  cursor: pointer;
+}
+.image122 {
+  position: absolute;
+  top: 0;
+  left: 591px;
+  width: 594px;
+  height: 394px;
+  object-fit: cover;
+}
+.problem,
+.solution {
+  margin: 0;
+  position: absolute;
+  top: 438px;
+  left: 591px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 121px;
+  height: 22px;
+}
+.solution {
+  top: 435px;
+  left: 810px;
+}
+.subframeB {
+  flex: 1;
+  position: relative;
+  height: 460px;
+  overflow-x: auto;
+  max-width: 100%;
+}
+.subframeA {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-21xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.ellipseElement {
+  align-self: stretch;
+  position: relative;
+  border-radius: 50%;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(255, 0, 0, 0.32),
+    rgba(255, 8, 5, 0.26) 0.01%,
+    rgba(255, 149, 90, 0)
+  );
+  height: 720px;
+}
+.ellipseElementWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 27px 0 0;
+  box-sizing: border-box;
+  min-width: 483px;
+  max-width: 100%;
+}
+.architectsNeedTo,
+.ourSolutionIs {
+  position: relative;
+  display: inline-block;
+}
+.architectsNeedTo {
+  white-space: pre-wrap;
+  width: 155px;
+  flex-shrink: 0;
+}
+.ourSolutionIs {
+  flex: 1;
+  min-width: 241px;
+  max-width: 100%;
+}
+.personaArchitect {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-45xl);
+  max-width: 100%;
+}
+.persona {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 78px;
+  height: 22px;
+  flex-shrink: 0;
+  padding-right: var(--padding-xl);
+}
+.thePersonaIs {
+  margin: 0;
+}
+.thePersonaIsContainer {
+  position: relative;
+  display: inline-block;
+  width: 157px;
+  flex-shrink: 0;
+}
+.blankLine,
+.inEssenceOur,
+.itSwiftlyCompiles {
+  margin: 0;
+}
+.itSwiftlyCompilesContainer {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  color: var(--color-darkgray);
+  min-width: 244px;
+  max-width: 100%;
+  z-index: 1;
+}
+.personaArchitect1,
+.textboxExperienceDesign,
+.textboxProblemSolution {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.personaArchitect1 {
+  flex-direction: row;
+  gap: var(--gap-45xl);
+  text-align: justify;
+  font-size: var(--font-size-3xs);
+  color: var(--color-mediumblue);
+}
+.textboxExperienceDesign,
+.textboxProblemSolution {
+  flex-direction: column;
+}
+.textboxExperienceDesign {
+  gap: var(--gap-7xs);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+}
+.textboxProblemSolution {
+  gap: 18px;
+}
+.frameChild {
+  position: relative;
+  border-radius: var(--br-smi);
+  background-color: var(--color-red-200);
+  width: 84px;
+  height: 26px;
+  display: none;
+}
+.previous {
+  position: relative;
+  font-size: var(--font-size-smi);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: justify;
+  z-index: 1;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-8xs) var(--padding-base) var(--padding-8xs)
+    var(--padding-sm);
+  background-color: var(--color-red-200);
+  border-radius: var(--br-smi);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.rectangleParent:hover {
+  background-color: var(--color-red-100);
+}
+.groupPreviousNextChild {
+  flex: 1;
+  cursor: pointer;
+}
+.groupPreviousNext {
+  width: 223px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+}
+.textboxLocationSpecificList {
+  width: 596px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 45px;
+  min-width: 596px;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1475px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 136px;
+  max-width: 120%;
+  flex-shrink: 0;
+}
+.macbookAir5,
+.parentFrame {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.parentFrame {
+  width: 1225px;
+  height: 330px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0;
+  max-width: 100%;
+  text-align: justify;
+  font-size: var(--font-size-3xs);
+  color: var(--color-darkgray);
+  font-family: var(--font-inter);
+}
+.macbookAir5 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-17xl) var(--padding-mini) 0 0;
+  gap: var(--gap-7xs);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .frameParent {
+    gap: 68px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .experienceDesignX {
+    font-size: var(--font-size-13xl);
+  }
+  .textboxLocationSpecificList {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .parentFrame {
+    height: auto;
+  }
+}
+@media screen and (max-width: 750px) {
+  .ellipseElementWrapper {
+    min-width: 100%;
+  }
+  .personaArchitect,
+  .personaArchitect1 {
+    flex-wrap: wrap;
+    gap: var(--gap-13xl);
+  }
+  .textboxLocationSpecificList {
+    gap: var(--gap-3xl);
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: var(--gap-15xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .experienceDesignX {
+    font-size: var(--font-size-5xl);
+  }
+  .personaArchitect,
+  .personaArchitect1 {
+    gap: var(--gap-base);
+  }
+  .frameParent {
+    gap: var(--gap-mid);
+  }
+}

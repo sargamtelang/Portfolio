@@ -1,0 +1,400 @@
+.experienceDesignX,
+.problem {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.experienceDesignX {
+  letter-spacing: -0.01em;
+  width: 248px;
+  height: 185px;
+  cursor: pointer;
+}
+.problem {
+  width: 121px;
+  height: 22px;
+}
+.sustenance {
+  color: var(--color-mediumblue);
+}
+.inTheBustlingContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xs);
+  text-align: justify;
+  color: var(--color-darkgray);
+}
+.problemParent {
+  width: 166px;
+  height: 128px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2px;
+}
+.uncheckedReproduction {
+  color: var(--color-mediumblue);
+}
+.theUncheckedReproductionContainer {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  display: inline-block;
+  text-align: justify;
+  width: 166px;
+  color: var(--color-darkgray);
+}
+.persona {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  height: 22px;
+  flex-shrink: 0;
+}
+.strayDogsIn {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  color: var(--color-mediumblue);
+  z-index: 1;
+}
+.personaParent {
+  width: 121px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image251,
+.mumbaibandradog1Icon {
+  position: relative;
+  border-radius: 65.5px;
+  width: 68px;
+  height: 71px;
+  object-fit: cover;
+}
+.mumbaibandradog1Icon {
+  border-radius: 56.5px;
+  width: 107px;
+  height: 107px;
+}
+.image251Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.frameContainer,
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.frameGroup {
+  gap: 40px;
+  min-width: 190px;
+}
+.image142,
+.solTempleforcoexistence1Icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 200px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.image142 {
+  height: 244px;
+}
+.solTempleforcoexistence1Parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 344px;
+  max-width: 50%;
+  max-height: 30%;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-23xl);
+}
+.experienceDesignXGenerativeParent,
+.frameParent,
+.frameWrapper,
+.macbookAir8Inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-mini) 0 0;
+  box-sizing: border-box;
+  min-width: 495px;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+}
+.experienceDesignXGenerativeParent,
+.macbookAir8Inner {
+  flex-direction: row;
+}
+.experienceDesignXGenerativeParent {
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 194px;
+}
+.macbookAir8Inner {
+  align-self: stretch;
+  padding: 0 37px 0 var(--padding-21xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-mediumblue);
+  font-family: var(--font-inter);
+}
+.frameChild {
+  position: relative;
+  border-radius: 50%;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(255, 0, 0, 0.32),
+    rgba(255, 8, 5, 0.26) 0.01%,
+    rgba(255, 149, 90, 0)
+  );
+  width: 743px;
+  height: 720px;
+  min-width: 743px;
+  max-width: 100%;
+}
+.solutions {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 121px;
+  height: 22px;
+  flex-shrink: 0;
+}
+.blankLine,
+.blankLine1,
+.blankLine2,
+.ourProposalIs,
+.theseFoodTrucks,
+.thisInitiativeNot {
+  margin: 0;
+}
+.ourProposalIsContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xs);
+  display: inline-block;
+  color: var(--color-darkgray);
+  white-space: pre-wrap;
+  text-align: justify;
+  height: 185px;
+  flex-shrink: 0;
+}
+.frameItem {
+  position: relative;
+  border-radius: var(--br-smi);
+  background-color: var(--color-red-200);
+  width: 84px;
+  height: 26px;
+  display: none;
+}
+.previous {
+  position: relative;
+  font-size: var(--font-size-smi);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: justify;
+  z-index: 1;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-8xs) var(--padding-base) var(--padding-8xs)
+    var(--padding-sm);
+  background-color: var(--color-red-200);
+  border-radius: var(--br-smi);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.rectangleParent:hover {
+  background-color: var(--color-red-100);
+}
+.frameWrapper1,
+.solutionsParent {
+  display: flex;
+  align-items: flex-start;
+}
+.frameWrapper1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 32px;
+}
+.solutionsParent {
+  width: 238px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 11px;
+  min-width: 238px;
+}
+.blankLine3,
+.blankLine4,
+.residentsAreEncouraged,
+.theDesignIdea,
+.theInitiativeAims {
+  margin: 0;
+}
+.theDesignIdeaContainer {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  display: inline-block;
+  color: var(--color-darkgray);
+  text-align: justify;
+  width: 195px;
+  height: 185px;
+  flex-shrink: 0;
+  min-width: 195px;
+}
+.frameParent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.ellipseParent,
+.frameDiv {
+  display: flex;
+  align-items: flex-start;
+}
+.frameDiv {
+  width: 527px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) 0 0;
+  box-sizing: border-box;
+  min-width: 527px;
+  max-width: 100%;
+}
+.ellipseParent {
+  width: 1491px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 120%;
+  flex-shrink: 0;
+}
+.macbookAir8,
+.macbookAir8Child {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.macbookAir8Child {
+  align-self: stretch;
+  height: 303px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xl) 0 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.macbookAir8 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-17xl) 0 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1225px) {
+  .experienceDesignXGenerativeParent {
+    gap: 97px;
+  }
+  .frameChild,
+  .frameDiv {
+    flex: 1;
+  }
+  .ellipseParent {
+    flex-wrap: wrap;
+  }
+  .macbookAir8Child {
+    height: auto;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .frameChild {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .experienceDesignX {
+    font-size: var(--font-size-5xl);
+  }
+  .solTempleforcoexistence1Parent {
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: 21px;
+  }
+  .experienceDesignXGenerativeParent {
+    gap: 24px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .experienceDesignX {
+    font-size: var(--font-size-13xl);
+  }
+  .frameGroup {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .frameWrapper {
+    min-width: 100%;
+  }
+  .experienceDesignXGenerativeParent {
+    gap: 48px;
+  }
+  .solutionsParent,
+  .theDesignIdeaContainer {
+    flex: 1;
+  }
+  .frameParent1 {
+    flex-wrap: wrap;
+  }
+  .frameDiv {
+    min-width: 100%;
+  }
+}

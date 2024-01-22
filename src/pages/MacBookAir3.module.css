@@ -1,0 +1,380 @@
+.experienceDesignX {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  height: 185px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.experienceDesignAI {
+  width: 248px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0 0;
+  box-sizing: border-box;
+  min-width: 248px;
+}
+.problem {
+  position: relative;
+  display: inline-block;
+  width: 141px;
+  height: 22px;
+  flex-shrink: 0;
+  padding-right: var(--padding-xl);
+}
+.blankLine,
+.blankLine1,
+.patientsAreRequired,
+.patientsStruggleWith,
+.urineCollectionIs {
+  margin: 0;
+}
+.urineCollectionIsContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xs);
+  display: inline-block;
+  color: var(--color-darkgray);
+  text-align: justify;
+  height: 275px;
+  flex-shrink: 0;
+}
+.automaticCupFrame,
+.urineCollectionText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.automaticCupFrame {
+  align-self: stretch;
+  gap: 26px;
+}
+.urineCollectionText {
+  width: 207px;
+  padding: 31px 0 0;
+  box-sizing: border-box;
+  min-width: 207px;
+}
+.ethonSuARealisticPhotograpIcon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 298px;
+  object-fit: cover;
+  min-width: 266px;
+}
+.deviceFrame,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.deviceFrame {
+  width: 693px;
+  justify-content: flex-start;
+  gap: 76px;
+  min-width: 693px;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+}
+.frameParent {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-mediumblue);
+  font-family: var(--font-inter);
+}
+.ellipseShapeChild {
+  align-self: stretch;
+  position: relative;
+  border-radius: 50%;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(255, 0, 0, 0.32),
+    rgba(255, 8, 5, 0.26) 0.01%,
+    rgba(255, 149, 90, 0)
+  );
+  height: 720px;
+}
+.ellipseShape {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 183px 0 0;
+  box-sizing: border-box;
+  min-width: 483px;
+  max-width: 100%;
+}
+.persona {
+  position: relative;
+  display: inline-block;
+  width: 141px;
+  height: 22px;
+  flex-shrink: 0;
+  padding-right: var(--padding-xl);
+}
+.theDeviceIs {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-3xs);
+  color: var(--color-mediumblue);
+  text-align: justify;
+}
+.previousNext {
+  align-self: stretch;
+  height: 113px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 2px 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-6xs);
+}
+.blankLine2,
+.ourSolutionIs {
+  margin: 0;
+}
+.ourSolutionIsContainer {
+  flex: 1;
+  position: relative;
+}
+.solution {
+  position: absolute;
+  margin: 0 !important;
+  top: -41px;
+  left: -30px;
+  font-size: var(--font-size-mini);
+  display: inline-block;
+  color: var(--color-black);
+  text-align: left;
+  height: 22px;
+  z-index: 1;
+}
+.automaticUrineCup,
+.imageRemoveBG {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.automaticUrineCup {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+  text-align: justify;
+  font-size: 12px;
+  color: var(--color-darkgray);
+}
+.imageRemoveBG {
+  width: 209px;
+  flex-direction: column;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: 69px;
+  min-width: 209px;
+}
+.image13RemovebgPreview1Icon {
+  position: relative;
+  max-height: 100%;
+  width: 391px;
+  object-fit: cover;
+  max-width: 100%;
+}
+.ourSolution {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.frameChild {
+  position: relative;
+  border-radius: var(--br-smi);
+  background-color: var(--color-red-200);
+  width: 84px;
+  height: 26px;
+  display: none;
+}
+.previous {
+  position: relative;
+  z-index: 1;
+}
+.frameItem,
+.rectangleParent {
+  border-radius: var(--br-smi);
+  background-color: var(--color-red-200);
+}
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs) var(--padding-base) var(--padding-8xs)
+    var(--padding-sm);
+  cursor: pointer;
+}
+.frameItem {
+  position: relative;
+  width: 84px;
+  height: 26px;
+  display: none;
+}
+.next {
+  position: relative;
+  z-index: 1;
+}
+.rectangleGroup {
+  border-radius: var(--br-smi);
+  background-color: var(--color-red-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs) var(--padding-9xl) var(--padding-8xs)
+    var(--padding-10xl);
+  cursor: pointer;
+}
+.previousNextGroup1 {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-mini);
+  text-align: justify;
+  font-size: var(--font-size-smi);
+  color: var(--color-white);
+}
+.childFrame,
+.previousNextGroup1,
+.solutionText {
+  display: flex;
+  justify-content: flex-start;
+}
+.solutionText {
+  width: 682px;
+  flex-direction: column;
+  align-items: center;
+  gap: 44px;
+  min-width: 682px;
+  max-width: 100%;
+}
+.childFrame {
+  width: 1519px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 94px;
+  max-width: 123%;
+  flex-shrink: 0;
+}
+.macbookAir6,
+.previousNextGroup {
+  display: flex;
+  box-sizing: border-box;
+}
+.previousNextGroup {
+  align-self: stretch;
+  height: 486px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 11px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.macbookAir6 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 22px 0 0 var(--padding-lgi);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1225px) {
+  .solutionText {
+    flex: 1;
+  }
+  .childFrame {
+    flex-wrap: wrap;
+  }
+  .previousNextGroup {
+    height: auto;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .experienceDesignX {
+    font-size: var(--font-size-5xl);
+  }
+  .deviceFrame {
+    gap: 19px;
+  }
+  .childFrame {
+    gap: var(--gap-4xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .urineCollectionText {
+    flex: 1;
+  }
+  .deviceFrame {
+    flex-wrap: wrap;
+    gap: 38px;
+  }
+  .ellipseShape {
+    padding-top: 119px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .image13RemovebgPreview1Icon,
+  .imageRemoveBG {
+    flex: 1;
+  }
+  .ourSolution {
+    flex-wrap: wrap;
+  }
+  .solutionText {
+    gap: var(--gap-3xl);
+  }
+  .childFrame {
+    gap: var(--gap-28xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .experienceDesignX {
+    font-size: var(--font-size-13xl);
+  }
+  .experienceDesignAI {
+    flex: 1;
+  }
+  .deviceFrame {
+    flex: 1;
+    min-width: 100%;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .solutionText {
+    min-width: 100%;
+  }
+}

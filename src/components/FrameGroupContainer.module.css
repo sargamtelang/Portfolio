@@ -1,0 +1,222 @@
+.ourSolutionBox {
+  align-self: stretch;
+  position: relative;
+  border-radius: 50%;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(255, 0, 0, 0.32),
+    rgba(255, 8, 5, 0.26) 0.01%,
+    rgba(255, 149, 90, 0)
+  );
+  height: 720px;
+}
+.frameHowMightWeCreate {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) 0 0;
+  box-sizing: border-box;
+  min-width: 483px;
+  max-width: 100%;
+}
+.howMightWe1 {
+  font-weight: 500;
+}
+.howMightWe1,
+.i {
+  font-family: var(--font-inter);
+}
+.createA,
+.howMightWe {
+  color: var(--color-darkgray);
+}
+.cyclistFriendly {
+  color: var(--color-mediumblue);
+}
+.urbanEnvironmentIn {
+  color: var(--color-darkgray);
+}
+.lausanne {
+  color: var(--color-mediumblue);
+}
+.blankLine,
+.howMightWeCreateACyclist {
+  margin: 0;
+}
+.howMightWe2 {
+  font-weight: 500;
+  font-family: var(--font-inter);
+}
+.blankLine1,
+.howMightWeIdeateInnovative {
+  margin: 0;
+}
+.howMightWeContainer {
+  align-self: stretch;
+  position: relative;
+  white-space: pre-wrap;
+}
+.frameCyclistFriendlyUrbanE {
+  width: 222px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 222px;
+}
+.blankLine2,
+.blankLine3,
+.cyclistsGainSafety,
+.inAdditionThe,
+.ourSolutionIncludes,
+.theIncreasedDistance,
+.theRightmostCar {
+  margin: 0;
+}
+.ourSolutionIncludesContainer {
+  position: relative;
+  display: inline-block;
+  white-space: pre-wrap;
+  width: 259px;
+  flex-shrink: 0;
+  min-width: 259px;
+}
+.textProblemSolutionGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameChild {
+  position: relative;
+  border-radius: var(--br-smi);
+  background-color: var(--color-red-200);
+  width: 84px;
+  height: 26px;
+  display: none;
+}
+.previous {
+  position: relative;
+  font-size: var(--font-size-smi);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: justify;
+  z-index: 1;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-8xs) var(--padding-base) var(--padding-8xs)
+    var(--padding-sm);
+  background-color: var(--color-red-200);
+  border-radius: var(--br-smi);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.rectangleParent:hover {
+  background-color: var(--color-red-100);
+}
+.groupGroupChild {
+  flex: 1;
+  cursor: pointer;
+  z-index: 1;
+}
+.groupGroup,
+.textGroupPreviousNext {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.groupGroup {
+  flex: 1;
+  gap: var(--gap-mini);
+}
+.textGroupPreviousNext {
+  width: 232px;
+  padding: 0 var(--padding-10xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.groupPreviousNext {
+  width: 608px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-27xl);
+  min-width: 608px;
+  max-width: 100%;
+}
+.ellipseShape,
+.ellipseShapeWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.ellipseShape {
+  width: 1478px;
+  justify-content: flex-start;
+  gap: var(--gap-108xl);
+  max-width: 120%;
+  flex-shrink: 0;
+}
+.ellipseShapeWrapper {
+  width: 1228px;
+  height: 327px;
+  justify-content: flex-end;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: justify;
+  font-size: var(--font-size-3xs);
+  color: var(--color-darkgray);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1225px) {
+  .ellipseShape {
+    gap: var(--gap-44xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .groupPreviousNext {
+    flex: 1;
+  }
+  .ellipseShape {
+    flex-wrap: wrap;
+  }
+  .ellipseShapeWrapper {
+    height: auto;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameHowMightWeCreate {
+    min-width: 100%;
+  }
+  .frameCyclistFriendlyUrbanE,
+  .ourSolutionIncludesContainer {
+    flex: 1;
+  }
+  .textProblemSolutionGroup {
+    flex-wrap: wrap;
+  }
+  .groupPreviousNext {
+    gap: var(--gap-4xl);
+    min-width: 100%;
+  }
+  .ellipseShape {
+    gap: var(--gap-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .ellipseShape {
+    gap: var(--gap-base);
+  }
+}
