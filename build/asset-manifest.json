@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sargamtelang/Portfolio.git/static/css/main.fa35a21c.css",
+    "main.js": "/sargamtelang/Portfolio.git/static/js/main.f8ba3c37.js",
+    "static/js/787.95aa9339.chunk.js": "/sargamtelang/Portfolio.git/static/js/787.95aa9339.chunk.js",
+    "index.html": "/sargamtelang/Portfolio.git/index.html",
+    "main.fa35a21c.css.map": "/sargamtelang/Portfolio.git/static/css/main.fa35a21c.css.map",
+    "main.f8ba3c37.js.map": "/sargamtelang/Portfolio.git/static/js/main.f8ba3c37.js.map",
+    "787.95aa9339.chunk.js.map": "/sargamtelang/Portfolio.git/static/js/787.95aa9339.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa35a21c.css",
+    "static/js/main.f8ba3c37.js"
+  ]
+}
