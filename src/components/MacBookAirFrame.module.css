@@ -152,6 +152,9 @@
   }
   .frameGroup2 {
     gap: var(--gap-xl);
+    width: 90%; /* adjust width to prevent cutting off */
+    height: auto; /* height will be determined by aspect ratio */
+    margin-bottom: 20px; /* ensure there's space at the bottom */
   }
   .innerFRAME {
     gap: var(--gap-10xl);

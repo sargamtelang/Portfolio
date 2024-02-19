@@ -89,8 +89,7 @@ const FrameGroupContainer: FunctionComponent = () => {
               <p className={styles.blankLine3}>&nbsp;</p>
               <p className={styles.cyclistsGainSafety}>
                 Cyclists gain safety and well-being through physical separation
-                from traffic, and pedestrians gain a quieter living environment
-                through the noise shielding of the shrubbery.
+                from traffic, and pedestrians gain a quieter living environment.
               </p>
             </b>
           </div>

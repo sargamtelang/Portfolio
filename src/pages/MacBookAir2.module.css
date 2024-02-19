@@ -80,6 +80,7 @@
 }
 .fRAMEROLEXLEARN {
   flex: 1;
+  align-items: flex-start;
   padding: 0 1px 0 0;
   box-sizing: border-box;
   min-width: 217px;
@@ -87,10 +88,23 @@
 .rECTANGLELOGO {
   align-self: stretch;
 }
-.problem,
+.problem
+{
+  margin: 0;
+  position: relative;
+  left: 1px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 121px;
+  height: 22px;
+  flex-shrink: 0;
+}
 .solution {
   margin: 0;
   position: relative;
+  left: 30px;
   font-size: inherit;
   font-weight: 700;
   font-family: inherit;
@@ -109,6 +123,8 @@
   max-width: 100%;
 }
 .fRAMEPROBLEMSOL {
+  position: relative;
+  left: 290px;
   align-self: stretch;
   flex-direction: column;
   justify-content: flex-start;
@@ -132,15 +148,8 @@
   font-size: var(--font-size-mini);
   color: var(--color-black);
 }
-.containerFRAME,
-.fRAME {
-  flex-direction: row;
-}
-.fRAME {
-  flex: 1;
-  justify-content: space-between;
-  gap: var(--gap-xl);
-}
+
+
 .containerFRAME {
   align-self: stretch;
   justify-content: flex-start;
@@ -163,9 +172,16 @@
   );
   height: 720px;
 }
+.fRAMEROLEXLEARN, .tEXTSTUDENTSWOR {
+  display: flex;
+  align-items: flex-start; /* This aligns the children to the top */
+  margin-top: 0;
+  padding-top: 0;
+}
 .tEXTSTUDENTSWOR {
   flex: 1;
   display: flex;
+  align-items: flex-start;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
@@ -177,6 +193,18 @@
 .studentsAtEpfl {
   align-self: stretch;
   position: relative;
+}
+.problem, .solution {
+  /* Existing styles */
+  width: 157px; /* Match the width if necessary */
+  /* Add more styles if needed */
+}
+.tEXTPROBLEMSOLU, .aClusterOfContainer {
+  /* Ensure the alignment matches for both problem and solution descriptions */
+  text-align: left;
+  width: auto; /* Adjust width to match design requirements */
+  padding: 0; /* Adjust padding to match design requirements */
+  /* Add more styles if needed */
 }
 .persona {
   margin: 0;
@@ -280,6 +308,8 @@
   align-items: flex-start;
 }
 .fRAMEGROUPPREVI {
+  position: absolute;
+  top: 700px;
   width: 183px;
   justify-content: flex-start;
   gap: var(--gap-mini);
@@ -307,6 +337,7 @@
   width: 1486px;
   flex-direction: row;
   align-items: flex-start;
+  display: flex;
   gap: 82px;
   max-width: 120%;
   flex-shrink: 0;

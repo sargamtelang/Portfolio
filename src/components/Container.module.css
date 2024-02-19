@@ -1,5 +1,6 @@
 .projectsDone {
-  position: relative;
+  position: absolute;
+  right: 565px;
   display: inline-block;
   width: 208px;
   height: 18px;
@@ -32,6 +33,7 @@
   cursor: pointer;
   z-index: 1;
 }
+
 .ellipseShapeParent {
   position: absolute;
   margin: 0 !important;
@@ -53,7 +55,9 @@
   position: relative;
 }
 .imagePng1Icon {
-  position: relative;
+  position: absolute;
+  right: 400px;
+  top: 75px;
   width: 284px;
   height: 279px;
   object-fit: cover;

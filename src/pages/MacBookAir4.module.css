@@ -94,7 +94,7 @@
 }
 .ourSolutionIs {
   flex: 1;
-  min-width: 241px;
+  min-width: 381px;
   max-width: 100%;
 }
 .personaArchitect {
@@ -208,6 +208,8 @@
   cursor: pointer;
 }
 .groupPreviousNext {
+  position: absolute;
+  top:800px;
   width: 223px;
   display: flex;
   flex-direction: row;

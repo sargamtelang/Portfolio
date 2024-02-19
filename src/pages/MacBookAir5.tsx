@@ -103,7 +103,7 @@ const MacBookAir5: FunctionComponent = () => {
                 className={styles.image191}
                 loading="eager"
                 alt=""
-                src="/image-19-1@2x.png"
+                src=""
               />
               <div className={styles.frameParent}>
                 <div className={styles.frameGroup}>

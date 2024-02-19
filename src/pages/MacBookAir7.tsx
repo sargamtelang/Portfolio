@@ -18,6 +18,18 @@ const MacBookAir7: FunctionComponent = () => {
     navigate("/macbook-air-4");
   }, [navigate]);
 
+  const onImage122Click = useCallback(() => {
+    navigate("/macbook-air-6");
+  }, [navigate]);
+
+  const onImage123Click = useCallback(() => {
+    navigate("/macbook-air-5");
+  }, [navigate]);
+
+  const onImage124Click = useCallback(() => {
+    navigate("/macbook-air-7");
+  }, [navigate]);
+
   return (
     <div className={styles.macbookAir1}>
       <div className={styles.frameA}>
@@ -78,6 +90,27 @@ const MacBookAir7: FunctionComponent = () => {
         alt=""
         src="/image-11-3@2x.png"
         onClick={onImage113Click}
+      />
+      <img 
+        className={styles.image122}
+        loading="eager"
+        alt=""
+        src="/image-13-1@2x.png"
+        onClick={onImage122Click}
+      />
+      <img 
+        className={styles.image123}
+        loading="eager"
+        alt=""
+        src="/image-12-1@2x.png"
+        onClick={onImage123Click}
+      />
+      <img 
+        className={styles.image124}
+        loading="eager"
+        alt=""
+        src="/image-png-1@2x.png"
+        onClick={onImage124Click}
       />
     </div>
   );

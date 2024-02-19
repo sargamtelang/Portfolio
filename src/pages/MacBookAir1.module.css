@@ -208,7 +208,7 @@
   display: inline-block;
   color: var(--color-darkgray);
   white-space: pre-wrap;
-  text-align: justify;
+  text-align: left;
   height: 185px;
   flex-shrink: 0;
 }
@@ -243,11 +243,7 @@
 .rectangleParent:hover {
   background-color: var(--color-red-100);
 }
-.frameWrapper1,
-.solutionsParent {
-  display: flex;
-  align-items: flex-start;
-}
+
 .frameWrapper1 {
   align-self: stretch;
   flex-direction: row;
@@ -260,6 +256,8 @@
   justify-content: flex-start;
   gap: 11px;
   min-width: 238px;
+  align-items: flex-start; /* This aligns the children (h3 and paragraphs) to the start (left) */
+  text-align: left; /* This ensures the text inside is aligned to the left */
 }
 .blankLine3,
 .blankLine4,
@@ -269,12 +267,15 @@
   margin: 0;
 }
 .theDesignIdeaContainer {
-  position: relative;
+  position: absolute;
+  top: 40px;
+  left: 300px ;
+  align-items: flex-start;
   font-size: var(--font-size-3xs);
   display: inline-block;
   color: var(--color-darkgray);
-  text-align: justify;
-  width: 195px;
+  text-align: left;
+  width: 235px;
   height: 185px;
   flex-shrink: 0;
   min-width: 195px;
@@ -293,8 +294,12 @@
   align-items: flex-start;
 }
 .frameDiv {
+  position: absolute;
+  left: 715px;
+  top: 500px;
   width: 527px;
   flex-direction: column;
+  align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-lgi) 0 0;
   box-sizing: border-box;

@@ -135,6 +135,8 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
+  position: absolute;
+  top: 400px;
 }
 .groupGroup {
   flex: 1;
